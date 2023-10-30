@@ -43,5 +43,5 @@ for SZA in SZAs:
         plt.legend(loc='center left',
          ncol=1, fancybox=True, shadow=True,bbox_to_anchor=(1 , 0.9),prop={'size':12})
         plt.tight_layout()
-        plt.savefig("Graphs/Fig_SZA" + SZA + "_b_" + b+".png", format="png", dpi=150, bbox_inches="tight")
+        plt.savefig("Graphs/Fig_SZA_" + SZA + "_b_" + b+".png", format="png", dpi=150, bbox_inches="tight")
         plt.close()
